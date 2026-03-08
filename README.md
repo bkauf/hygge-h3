@@ -1,23 +1,36 @@
-# hygge-h3
+# hygge-h3 
 
 ## Pinout 
 
- 1. Notecard:
-    - POWER: 21
-      Reset: 7
-      SDA: 10
-      SLC: 11
-1. Status LED
-    Power: 12
-1. Leak Detection
+ ### Notecard:
+ ```sh
+    Power: 21
+    Reset: 7
+    SDA: 10
+    SLC: 11
+```
+### Status LED
+```sh
+   Power: 12
+```
+### Leak Detection
+```sh
     Enable Voltage: 3
     Reading: 27
-1. USB
-     Detect: 26
-1. Battery Volrage Monitor
- Enable: 19
- Reading: 28
-1. I2C
-   IC21: 10,11(AHT20/Notecard)
-   I2C0: 4,5 (External)
-    
+```
+### USB
+```sh  
+  Detect: 26
+```
+### Battery Voltage Monitor
+```sh 
+Enable: 19
+Reading: 28
+```
+### I2C
+```sh
+IC21(AHT20/Notecard) 
+SDA: 10,SCL: 11
+I2C0(External)
+SDA: 4,SLC: 5 
+```    
