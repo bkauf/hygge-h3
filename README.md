@@ -3,10 +3,10 @@
 ## Pinout 
 
  1. Notecard:
-     POWER: 21
-     Reset: 7
-     SDA: 10
-     SLC: 11
+    - POWER: 21
+      Reset: 7
+      SDA: 10
+      SLC: 11
 1. Status LED
     Power: 12
 1. Leak Detection
